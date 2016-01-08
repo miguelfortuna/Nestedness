@@ -72,7 +72,7 @@ while t <= 1000 % number of replicates
 		result_cols=col_vector(1,3)/x;
 		suma_nodf_cols=col_vector(1,3);
 
-		%%% nestedness rows
+		%% nestedness rows
 		G=zeros((rows*(rows-1))/2,3); % number of different pairs of rows
 		x=0;
 		for i=1: rows
