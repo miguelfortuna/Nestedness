@@ -30,9 +30,9 @@ while t <= 1000 % number of replicates
 	sum_rows=sum(B,2); % col vector
 	if (all(sum_cols)==1 && all(sum_rows)==1) % if the matrix size is preserved
 
-		%==============
+		%=============
 		%--- NODF ---%
-		%==============
+		%=============
 
 		W=B;
 
