@@ -59,7 +59,7 @@ while t <= 1000 % number of replicates
 	%--- NODF ---%
 	%=============
 
-	%%% nestedness columns
+	%% nestedness columns
 	G=zeros((columns*(columns-1))/2,3); % number of different pairs of columns
 	x=0;
 	for i=1: columns
